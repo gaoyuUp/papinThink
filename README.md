@@ -1,4 +1,4 @@
-## 捐献作者 - <GaoYu>
+## 捐献作者 - GaoYu
  ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/wechat.png)
  ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/alipay.png)
  
