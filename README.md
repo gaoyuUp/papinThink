@@ -48,4 +48,4 @@
  
  ## 捐献
  ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/wechat.png)
- ![](https://oscimg.oschina.net/oscnet/b762fa2cbf2f9042562011d38aaa1cbcada.jpg)
+ ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/alipay.png)
