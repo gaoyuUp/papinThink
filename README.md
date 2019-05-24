@@ -47,5 +47,5 @@
  + layuicms
  
  ## 捐献
- ![](https://github.com/gaoyuUp/orginThink/edit/master/public/wechat.png)
+ ![](https://github.com/gaoyuUp/orginThink/tree/master/public/images/wechat.png)
  ![](https://oscimg.oschina.net/oscnet/b762fa2cbf2f9042562011d38aaa1cbcada.jpg)
