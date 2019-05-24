@@ -1,4 +1,4 @@
-<?php /*a:2:{s:76:"/Users/liangfei/Public/project/origin/application/admin/view/index/home.html";i:1558679013;s:75:"/Users/liangfei/Public/project/origin/application/admin/view/base/base.html";i:1558678201;}*/ ?>
+<?php /*a:2:{s:76:"/Users/liangfei/Public/project/origin/application/admin/view/index/home.html";i:1558679644;s:75:"/Users/liangfei/Public/project/origin/application/admin/view/base/base.html";i:1558678201;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +41,7 @@
         </a>
     </div>
     <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">
-        <a href=""  target="_blank">
+        <a href="https://gitee.com/gaoyuUp/orginThink"  target="_blank">
             <div class="panel_icon layui-bg-red">
                 <i class="layui-anim seraph icon-oschina"></i>
             </div>
