@@ -1,4 +1,4 @@
-<?php /*a:2:{s:76:"/Users/liangfei/Public/project/origin/application/admin/view/index/home.html";i:1558668570;s:75:"/Users/liangfei/Public/project/origin/application/admin/view/base/base.html";i:1557902193;}*/ ?>
+<?php /*a:2:{s:76:"/Users/liangfei/Public/project/origin/application/admin/view/index/home.html";i:1558679013;s:75:"/Users/liangfei/Public/project/origin/application/admin/view/base/base.html";i:1558678201;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +30,7 @@
         </a>
     </div>
     <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">
-        <a href="https://github.com/yuan-dian/originThink" data-url="" target="_blank">
+        <a href="https://github.com/gaoyuUp/orginThink" data-url="" target="_blank">
             <div class="panel_icon layui-bg-black">
                 <i class="layui-anim seraph icon-github"></i>
             </div>
@@ -41,7 +41,7 @@
         </a>
     </div>
     <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">
-        <a href="https://gitee.com/yuandianzj/originThink"  target="_blank">
+        <a href=""  target="_blank">
             <div class="panel_icon layui-bg-red">
                 <i class="layui-anim seraph icon-oschina"></i>
             </div>

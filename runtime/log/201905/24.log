@@ -3033,3 +3033,1480 @@
 [ info ] [ DB ] INIT mysql
 [ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
 [ sql ] [ SQL ] select version() as version [ RunTime:0.000214s ]
+---------------------------------------------------------------
+[2019-05-24T14:12:08+08:00] 127.0.0.1 POST pc.orgin.com:7888/admin/logout.html
+[运行时间：0.062312s] [吞吐率：16.05req/s] [内存消耗：1,691.31kb] [文件加载：64]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/logout',
+  'route' => 'admin/Login/logout',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pc.orgin.com:7888',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:12:10+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/login.html
+[运行时间：0.046890s] [吞吐率：21.33req/s] [内存消耗：1,870.99kb] [文件加载：68]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/login/login.html [ array (
+  0 => 'is_open_captcha',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:12:11+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/login.html
+[运行时间：0.035058s] [吞吐率：28.52req/s] [内存消耗：1,706.54kb] [文件加载：65]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/login/login.html [ array (
+  0 => 'is_open_captcha',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:12:59+08:00] 127.0.0.1 POST pc.orgin.com:7888/admin/login.html
+[运行时间：0.371879s] [吞吐率：2.69req/s] [内存消耗：3,126.75kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pc.orgin.com:7888',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '26',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000856s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.004693s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user` = 'admin' LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] UPDATE `think_user`  SET `login_count` = `login_count` + 1 , `last_login_ip` = '127.0.0.1' , `last_login_time` = 1558678379 , `update_time` = 1558678379  WHERE  `uid` = 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.003149s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `think_auth_group_access` WHERE  `uid` = 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_login_log` [ RunTime:0.003257s ]
+[ sql ] [ SQL ] INSERT INTO `think_login_log` (`uid` , `user` , `name` , `last_login_ip` , `create_time`) VALUES (1 , 'admin' , 'admin' , '127.0.0.1' , 1558678379) [ RunTime:0.002672s ]
+---------------------------------------------------------------
+[2019-05-24T14:13:02+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/index.html
+[运行时间：0.051615s] [吞吐率：19.37req/s] [内存消耗：2,309.39kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/index.html [ array (
+  0 => 'site_config',
+  1 => 'menuList',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:13:02+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.061933s] [吞吐率：16.15req/s] [内存消耗：3,067.95kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[2019-05-24T14:13:19+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/userList.html
+[运行时间：0.064085s] [吞吐率：15.60req/s] [内存消耗：2,271.91kb] [文件加载：77]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/User/userList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/user/user_list.html [ array (
+  0 => 'site_config',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:13:19+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/userList.html?page=1&limit=10
+[运行时间：0.073936s] [吞吐率：13.53req/s] [内存消耗：3,059.56kb] [文件加载：84]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/userList',
+  'route' => 'admin/User/userList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/userList.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.002754s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_user` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` LIMIT 0,10 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.002579s ]
+[ sql ] [ SQL ] SELECT `AuthGroup`.`title` FROM `think_auth_group_access` `AuthGroupAccess` INNER JOIN `think_auth_group` `AuthGroup` ON `AuthGroup`.`id`=`AuthGroupAccess`.`group_id` WHERE  `uid` = 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `AuthGroup`.`title` FROM `think_auth_group_access` `AuthGroupAccess` INNER JOIN `think_auth_group` `AuthGroup` ON `AuthGroup`.`id`=`AuthGroupAccess`.`group_id` WHERE  `uid` = 2 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[2019-05-24T14:13:26+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/edit.html?uid=2
+[运行时间：0.088461s] [吞吐率：11.30req/s] [内存消耗：3,202.55kb] [文件加载：85]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/edit',
+  'route' => 'admin/User/edit',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/userList.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'uid' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/user/edit.html [ array (
+  0 => 'site_config',
+  1 => 'list',
+  2 => 'grouplist',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000428s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.003096s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `uid` = 2 LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.002646s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `think_auth_group_access` WHERE  `uid` = 2 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.002405s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `think_auth_group` [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[2019-05-24T14:14:00+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/groupList.html
+[运行时间：0.050260s] [吞吐率：19.90req/s] [内存消耗：2,285.85kb] [文件加载：77]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/groupList',
+  'route' => 'admin/User/groupList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/user/group_list.html [ array (
+  0 => 'site_config',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:14:00+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/ruleList.html
+[运行时间：0.059654s] [吞吐率：16.76req/s] [内存消耗：2,990.66kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/ruleList',
+  'route' => 'admin/User/ruleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/groupList.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001007s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002482s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,title as text FROM `think_auth_rule` [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[2019-05-24T14:14:01+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/groupList.html?page=1&limit=10
+[运行时间：0.059459s] [吞吐率：16.82req/s] [内存消耗：3,040.23kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/groupList',
+  'route' => 'admin/User/groupList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/groupList.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group` [ RunTime:0.002616s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `think_auth_group` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_group` LIMIT 0,10 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[2019-05-24T14:14:03+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/cleanCache.html
+[运行时间：0.043601s] [吞吐率：22.94req/s] [内存消耗：2,261.88kb] [文件加载：77]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/cleanCache',
+  'route' => 'admin/System/cleanCache',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/system/clean_cache.html [ array (
+  0 => 'site_config',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:14:04+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/menu.html
+[运行时间：0.042910s] [吞吐率：23.30req/s] [内存消耗：2,282.28kb] [文件加载：77]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/menu',
+  'route' => 'admin/System/menu',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/system/menu.html [ array (
+  0 => 'site_config',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:14:04+08:00] 127.0.0.1 POST pc.orgin.com:7888/admin/menu.html
+[运行时间：0.056559s] [吞吐率：17.68req/s] [内存消耗：3,010.45kb] [文件加载：81]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/menu',
+  'route' => 'admin/System/menu',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/menu.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pc.orgin.com:7888',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000400s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.002856s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` ORDER BY `sort` DESC [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[2019-05-24T14:14:07+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/editMenu.html?id=1
+[运行时间：0.072500s] [吞吐率：13.79req/s] [内存消耗：3,180.45kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/editMenu',
+  'route' => 'admin/System/editMenu',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/menu.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/system/edit_menu.html [ array (
+  0 => 'site_config',
+  1 => 'data',
+  2 => 'menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.003457s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `think_auth_rule` WHERE  `pid` = 0 ORDER BY `sort` DESC [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[2019-05-24T14:16:59+08:00] 127.0.0.1 POST pc.orgin.com:7888/admin/logout.html
+[运行时间：0.042818s] [吞吐率：23.35req/s] [内存消耗：1,871.80kb] [文件加载：67]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/logout',
+  'route' => 'admin/Login/logout',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pc.orgin.com:7888',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:01+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/login.html
+[运行时间：0.036721s] [吞吐率：27.23req/s] [内存消耗：1,876.42kb] [文件加载：68]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/login/login.html [ array (
+  0 => 'is_open_captcha',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:17:01+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.053021s] [吞吐率：18.86req/s] [内存消耗：1,866.55kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:04+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/login.html
+[运行时间：0.035308s] [吞吐率：28.32req/s] [内存消耗：1,877.09kb] [文件加载：68]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/login/login.html [ array (
+  0 => 'is_open_captcha',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:17:04+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.036472s] [吞吐率：27.42req/s] [内存消耗：1,866.67kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:06+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.034888s] [吞吐率：28.66req/s] [内存消耗：1,866.67kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:06+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.032354s] [吞吐率：30.91req/s] [内存消耗：1,866.67kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:06+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.032929s] [吞吐率：30.37req/s] [内存消耗：1,866.67kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:12+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/verify.html
+[运行时间：0.035958s] [吞吐率：27.81req/s] [内存消耗：1,866.67kb] [文件加载：66]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-05-24T14:17:17+08:00] 127.0.0.1 POST pc.orgin.com:7888/admin/login.html
+[运行时间：0.338309s] [吞吐率：2.96req/s] [内存消耗：3,196.33kb] [文件加载：86]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://pc.orgin.com:7888',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '36',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+)
+[ info ] [ PARAM ] array (
+  'user' => 'admin',
+  'password' => '123456',
+  'code' => '1267',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_user` [ RunTime:0.002659s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `user` = 'admin' LIMIT 1 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] UPDATE `think_user`  SET `login_count` = `login_count` + 1 , `last_login_ip` = '127.0.0.1' , `last_login_time` = 1558678637 , `update_time` = 1558678637  WHERE  `uid` = 1 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.002494s ]
+[ sql ] [ SQL ] SELECT `group_id` FROM `think_auth_group_access` WHERE  `uid` = 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `think_user` WHERE  `uid` = 1 LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_login_log` [ RunTime:0.002584s ]
+[ sql ] [ SQL ] INSERT INTO `think_login_log` (`uid` , `user` , `name` , `last_login_ip` , `create_time`) VALUES (1 , 'admin' , 'admin' , '127.0.0.1' , 1558678637) [ RunTime:0.002540s ]
+---------------------------------------------------------------
+[2019-05-24T14:17:20+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/index.html
+[运行时间：0.044716s] [吞吐率：22.36req/s] [内存消耗：2,299.59kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/index.html [ array (
+  0 => 'site_config',
+  1 => 'menuList',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:17:20+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.056053s] [吞吐率：17.84req/s] [内存消耗：3,059.77kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000210s ]
+---------------------------------------------------------------
+[2019-05-24T14:22:55+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/index.html
+[运行时间：0.046335s] [吞吐率：21.58req/s] [内存消耗：2,299.55kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/index.html [ array (
+  0 => 'site_config',
+  1 => 'menuList',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:22:55+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.066685s] [吞吐率：15.00req/s] [内存消耗：3,236.84kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[2019-05-24T14:23:07+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.048376s] [吞吐率：20.67req/s] [内存消耗：3,059.77kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/home.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000355s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[2019-05-24T14:23:21+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/index.html
+[运行时间：0.045035s] [吞吐率：22.21req/s] [内存消耗：2,299.55kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/index.html [ array (
+  0 => 'site_config',
+  1 => 'menuList',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:23:21+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.067168s] [吞吐率：14.89req/s] [内存消耗：3,236.84kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[2019-05-24T14:23:22+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.052165s] [吞吐率：19.17req/s] [内存消耗：3,059.77kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/home.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000328s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[2019-05-24T14:23:36+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/index.html
+[运行时间：0.042658s] [吞吐率：23.44req/s] [内存消耗：2,299.55kb] [文件加载：80]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/index',
+  'route' => 'admin/Index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/index.html [ array (
+  0 => 'site_config',
+  1 => 'menuList',
+) ]
+---------------------------------------------------------------
+[2019-05-24T14:23:36+08:00] 127.0.0.1 GET pc.orgin.com:7888/admin/home.html
+[运行时间：0.063136s] [吞吐率：15.84req/s] [内存消耗：3,236.84kb] [文件加载：83]
+[ info ] [ LANG ] /Users/liangfei/Public/project/origin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/home',
+  'route' => 'admin/Index/home',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'middleware' => 
+    array (
+      0 => 
+      array (
+        0 => 'app\\admin\\middleware\\CheckAuth',
+        1 => NULL,
+      ),
+    ),
+    'ext' => 'html',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=e3098b0e2cd9290ecb8a782898b8355f',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://pc.orgin.com:7888/admin/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'pc.orgin.com:7888',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/liangfei/Public/project/origin/application/admin/view/index/home.html [ array (
+  0 => 'site_config',
+) ]
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=localhost;dbname=tp5.1;charset=utf8
+[ sql ] [ SQL ] select version() as version [ RunTime:0.000247s ]
