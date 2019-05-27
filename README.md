@@ -1,17 +1,3 @@
-## 捐献作者 - GaoYu
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/wechat.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/alipay.png)
- 
-## 网站展示
-- 网站图观赏
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/2.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/3.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/4.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/5.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/6.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/7.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/8.png)
- ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/orgin_img/9.png)
 ## 系统要求
  + php5.6+
  + ThinkPHP5.1.6+
@@ -37,7 +23,6 @@
     'is_open' => true
  ~~~
  
- 
 ## 默认账号密码
  + 默认账号：admin
  + 密码：123456
@@ -56,3 +41,6 @@
  + ThinkPHP
  + layui
  + layuicms
+ ## 捐献作者 - GaoYu
+  ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/wechat.png)
+  ![](https://github.com/gaoyuUp/orginThink/blob/master/public/images/alipay.png)
