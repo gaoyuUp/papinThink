@@ -122,7 +122,7 @@ CREATE TABLE `think_config` (
 -- ----------------------------
 BEGIN;
 INSERT INTO `think_config` VALUES (1, 'system_config', '系统配置', '{\"debug\": \"0\", \"trace\": \"0\", \"trace_type\": \"0\"}', 0, 1523414007, 1531729547);
-INSERT INTO `think_config` VALUES (2, 'site_config', '站点配置', '{\"title\":\"orginThink\",\"name\":\"orginThink\",\"copyright\":\"copyright @2018 orginThink\",\"icp\":\"ORGIN00000001号\"}', 1, 1523414007, 1558670605);
+INSERT INTO `think_config` VALUES (2, 'site_config', '站点配置', '{\"title\":\"papinThink\",\"name\":\"papinThink\",\"copyright\":\"copyright @2019 papinThink\",\"icp\":\"Papin00000001号\"}', 1, 1523414007, 1558670605);
 COMMIT;
 
 -- ----------------------------
