@@ -1,4 +1,4 @@
-<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1558678201;}*/ ?>
+<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1558936744;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +33,7 @@
                     <a href="javascript:;"><i class="seraph icon-lock"></i><cite>锁屏</cite></a>
                 </li>
                 <li class="layui-nav-item" id="userInfo">
-                    <a href="javascript:;"><img src="/images/face.jpg" class="layui-nav-img userAvatar" width="35"
+                    <a href="javascript:;"><img src="/images/Gao.jpg" class="layui-nav-img userAvatar" width="35"
                                                 height="35"><cite
                             class="adminName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></cite></a>
                     <dl class="layui-nav-child">
@@ -51,10 +51,9 @@
     <!-- 左侧导航 -->
     <div class="layui-side layui-bg-black">
         <div class="user-photo">
-            <a class="img" title="我的头像"><img src="/images/face.jpg" class="userAvatar"></a>
-            <p>你好！<span class="userName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></span>, 欢迎登录</p>
+            <a class="img" title="我的头像"><img src="/images/Gao.jpg" class="userAvatar"></a>
+            <p>您好！<span class="userName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></span>, 欢迎登录</p>
         </div>
-
         <div id="navBar" class="navBar layui-side-scroll">
             <ul class="layui-nav layui-nav-tree">
                 <?php if(is_array($menuList) || $menuList instanceof \think\Collection || $menuList instanceof \think\Paginator): $i = 0; $__LIST__ = $menuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
