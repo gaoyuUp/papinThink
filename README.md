@@ -10,7 +10,7 @@
         Composer install 或 Composer update
      ~~~
     + 手动下载ThinkPHP核心包，命名为thinkphp，放入根目录，推荐下载[releases包](https://github.com/top-think/framework/releases)
- + 第二步：执行SQL文件（根目录sql.sql文件）
+ + 第二步：执行SQL文件（papin.sql文件）
  
  ## 验证码：
  + 安装think-captcha扩展包
