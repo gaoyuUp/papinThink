@@ -7,10 +7,10 @@ layui.use(['form','jquery',"layer"],function() {
 
     //判断是否web端打开
     if(!/http(s*):\/\//.test(location.href)){
-        layer.alert("请先将项目部署到 localhost 下再进行访问【建议通过tomcat、webstorm、hb等方式运行，不建议通过iis方式运行】，否则部分数据将无法显示");
+        layer.alert("请先将项目部署到 localhost 下再进行访问【建议通过apache、nginx等方式运行，不建议通过iis方式运行】，否则部分数据将无法显示");
     }else{    //判断是否处于锁屏状态【如果关闭以后则未关闭浏览器之前不再显示】
         if(window.sessionStorage.getItem("lockcms") != "true" && window.sessionStorage.getItem("showNotice") != "true"){
-            // showNotice();
+            showNotice();
         }
     }
 
@@ -73,7 +73,7 @@ layui.use(['form','jquery',"layer"],function() {
     $(".functionSetting").click(function(){
         layer.open({
             title: "功能设定",
-            area: ["380px", "270px"],
+            area: ["380px", "215px"],
             type: "1",
             content :  '<div class="functionSrtting_box">'+
                             '<form class="layui-form">'+
@@ -89,13 +89,6 @@ layui.use(['form','jquery',"layer"],function() {
                                     '<div class="layui-input-block">'+
                                         '<input type="checkbox" name="changeRefresh" lay-skin="switch" lay-text="开|关">'+
                                         '<div class="layui-word-aux">开启后切换窗口刷新当前页面</div>'+
-                                    '</div>'+
-                                '</div>'+
-                                '<div class="layui-form-item">'+
-                                    '<label class="layui-form-label">单一登陆</label>'+
-                                    '<div class="layui-input-block">'+
-                                        '<input type="checkbox" name="oneLogin" lay-filter="multipleLogin" lay-skin="switch" lay-text="是|否">'+
-                                        '<div class="layui-word-aux">开启后不可同时多个地方登录</div>'+
                                     '</div>'+
                                 '</div>'+
                                 '<div class="layui-form-item skinBtn">'+
@@ -122,10 +115,6 @@ layui.use(['form','jquery',"layer"],function() {
                 //取消设定
                 form.on("submit(noSetting)",function(){
                     layer.closeAll("page");
-                });
-                //单一登陆提示
-                form.on('switch(multipleLogin)', function(data){
-                    layer.tips('温馨提示：此功能需要开发配合，所以没有功能演示，敬请谅解', data.othis,{tips: 1})
                 });
                 form.render();  //表单渲染
             }
