@@ -73,7 +73,7 @@ layui.use(['form','jquery',"layer"],function() {
     $(".functionSetting").click(function(){
         layer.open({
             title: "功能设定",
-            area: ["380px", "280px"],
+            area: ["380px", "270px"],
             type: "1",
             content :  '<div class="functionSrtting_box">'+
                             '<form class="layui-form">'+
