@@ -1,4 +1,4 @@
-<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/login/login.html";i:1559100924;}*/ ?>
+<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/login/login.html";i:1559101564;}*/ ?>
 <!DOCTYPE html>
 <html class="loginHtml">
 <head>
@@ -60,14 +60,11 @@
                 dataType: 'json',
                 data: data,
                 success: function (data) {
-                    var time = 3000;
                     var icon = 5;
                     if (data.code) {
                         icon = 6;
-                        time = 1000;
                     }
-                    // layer.msg(data.msg, {icon: icon}, function () {
-                    layer.msg(data.msg, {icon: icon,time: time}, function () {
+                    layer.msg(data.msg, {icon: icon}, function () {
                         if (data.code) {
                             location.href = data.url;
                         } else {

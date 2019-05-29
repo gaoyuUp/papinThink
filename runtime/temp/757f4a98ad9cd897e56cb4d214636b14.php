@@ -1,5 +1,21 @@
-{extend name="base/base" /}
-{block name="main"}
+<?php /*a:2:{s:81:"/Users/liangfei/Public/project/origin/application/admin/view/user/group_list.html";i:1559113777;s:75:"/Users/liangfei/Public/project/origin/application/admin/view/base/base.html";i:1558678201;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title><?php echo htmlentities($site_config['value']['title']); ?></title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="/css/public.css" media="all"/>
+    
+</head>
+<body class="childrenBody">
+
 <form class="layui-form">
     <blockquote class="layui-elem-quote quoteBox">
         <form class="layui-form">
@@ -32,7 +48,7 @@
         <div class="layui-form-item">
             <div class="layui-input-block">
                 <input type="hidden" id="id" name="id" value="">
-                <input type="hidden" name="__token__" id="token" value="{$Request.token}"/>
+                <input type="hidden" name="__token__" id="token" value="<?php echo htmlentities(app('request')->token()); ?>"/>
                 <a class="layui-btn" lay-submit lay-filter="save">立即提交</a>
                 <button type="reset" class="layui-btn layui-btn-primary">重置</button>
             </div>
@@ -50,11 +66,12 @@
         </div>
     </form>
 </div>
-{/block}
-{block name="script"}
-{js href="/js/jquery.min.js" /}
-{css href="/jstree/themes/default/style.min.css"/}
-{js href="/jstree/jstree.js" /}
+
+<script type="text/javascript" src="/layui/layui.js"></script>
+
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/jstree/themes/default/style.min.css" />
+<script type="text/javascript" src="/jstree/jstree.js"></script>
 <script>
     triggerTree();
 
@@ -63,7 +80,7 @@
             'core': {
                 'data': {
                     'method': "GET",
-                    'url': "{:url('/admin/ruleList')}",
+                    'url': "<?php echo url('/admin/ruleList'); ?>",
                 },
             },
             'checkbox': {
@@ -88,7 +105,7 @@
         //新闻列表
         var tableIns = table.render({
             elem: '#usersList',
-            url: "{:url('/admin/groupList')}",
+            url: "<?php echo url('/admin/groupList'); ?>",
             cellMinWidth: 95,
             page: true,
             limit: 10,
@@ -197,7 +214,7 @@
                 layer.close(index);
                 var status = data.elem.checked ? 1 : 0;
                 id = data.elem.value;
-                $.post("{:url('/admin/disableGroup')}", {id: id, status: status}, function (data) {
+                $.post("<?php echo url('/admin/disableGroup'); ?>", {id: id, status: status}, function (data) {
                     var icon = 5;
                     if (data.code) {
                         icon = 6;
@@ -212,7 +229,7 @@
             setTimeout(function () {
                 layer.close(index);
                 var data = $('#groupform').serialize();
-                $.post("{:url('/admin/editGroup')}", data, function (data) {
+                $.post("<?php echo url('/admin/editGroup'); ?>", data, function (data) {
                     var icon = 5;
                     if (data.code) {
                         icon = 6;
@@ -233,7 +250,7 @@
                 layer.close(index);
                 var rules = $("#tree").jstree("get_checked");
                 var id = $('#groupid').val();
-                $.post("{:url('/admin/editRule')}", {rules: rules, id: id}, function (data) {
+                $.post("<?php echo url('/admin/editRule'); ?>", {rules: rules, id: id}, function (data) {
                     var icon = 5;
                     if (data.code) {
                         icon = 6;
@@ -249,4 +266,6 @@
         });
     })
 </script>
-{/block}
+
+</body>
+</html>
