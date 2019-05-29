@@ -1,4 +1,4 @@
-<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1558936744;}*/ ?>
+<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1559099578;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,23 +26,19 @@
             <!-- 顶部右侧菜单 -->
             <ul class="layui-nav top_menu">
                 <li class="layui-nav-item" pc>
-                    <a href="javascript:;" class="clearCache"><i class="layui-icon"
-                                                                 data-icon="&#xe640;">&#xe640;</i><cite>清除浏览器缓存</cite></a>
+                    <a href="javascript:;" class="clearCache"><i class="layui-icon" data-icon="&#xe640;">&#xe640;</i><cite>清除浏览器缓存</cite></a>
                 </li>
                 <li class="layui-nav-item lockcms" pc>
                     <a href="javascript:;"><i class="seraph icon-lock"></i><cite>锁屏</cite></a>
                 </li>
                 <li class="layui-nav-item" id="userInfo">
-                    <a href="javascript:;"><img src="/images/Gao.jpg" class="layui-nav-img userAvatar" width="35"
-                                                height="35"><cite
-                            class="adminName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></cite></a>
+                    <a href="javascript:;"><img src="/images/Gao.jpg" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></cite></a>
                     <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="<?php echo url('/admin/editPassword'); ?>"><i
-                                class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite>修改密码</cite></a></dd>
-                        <dd pc><a href="javascript:;" class="changeSkin"><i
-                                class="layui-icon">&#xe61b;</i><cite>更换皮肤</cite></a></dd>
-                        <dd><a onclick="loginout()" class="signOut"><i
-                                class="seraph icon-tuichu"></i><cite>退出</cite></a></dd>
+                        <dd><a href="javascript:;" data-url="<?php echo url('/admin/editPassword'); ?>"><i class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite>修改密码</cite></a></dd>
+                        <dd pc><a href="javascript:;" class="functionSetting"><i class="layui-icon">&#xe620;</i><cite>功能设定</cite><span class="layui-badge-dot"></span></a></dd>
+                        <dd><a href="javascript:;" class="showNotice"><i class="layui-icon">&#xe645;</i><cite>系统公告</cite><span class="layui-badge-dot"></span></a></dd>
+                        <dd pc><a href="javascript:;" class="changeSkin"><i class="layui-icon">&#xe61b;</i><cite>更换皮肤</cite></a></dd>
+                        <dd><a onclick="loginout()" class="signOut"><i class="seraph icon-tuichu"></i><cite>退出</cite></a></dd>
                     </dl>
                 </li>
             </ul>
@@ -52,8 +48,9 @@
     <div class="layui-side layui-bg-black">
         <div class="user-photo">
             <a class="img" title="我的头像"><img src="/images/Gao.jpg" class="userAvatar"></a>
-            <p>您好！<span class="userName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></span>, 欢迎登录</p>
+            <p>你好！<span class="userName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></span>, 欢迎登录</p>
         </div>
+
         <div id="navBar" class="navBar layui-side-scroll">
             <ul class="layui-nav layui-nav-tree">
                 <?php if(is_array($menuList) || $menuList instanceof \think\Collection || $menuList instanceof \think\Paginator): $i = 0; $__LIST__ = $menuList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
@@ -98,7 +95,9 @@
     </div>
     <!-- 底部 -->
     <div class="layui-footer footer">
-        <p><span><?php echo htmlentities($site_config['value']['icp']); ?>  <?php echo htmlentities($site_config['value']['copyright']); ?></span>  <a onclick="donation()" class="layui-btn layui-btn-danger layui-btn-sm">捐赠作者</a></p>
+        <p><span><?php echo htmlentities($site_config['value']['icp']); ?>  <?php echo htmlentities($site_config['value']['copyright']); ?></span> <a onclick="donation()"
+                                                                                    class="layui-btn layui-btn-danger layui-btn-sm">捐赠作者</a>
+        </p>
     </div>
 </div>
 
@@ -122,7 +121,7 @@
                 title: false,
                 type: 1,
                 content: '<div class="admin-header-lock" id="lock-box">' +
-                    '<div class="admin-header-lock-img"><img src="/images/face.jpg" class="userAvatar"/></div>' +
+                    '<div class="admin-header-lock-img"><img src="/images/Gao.jpg" class="userAvatar"/></div>' +
                     '<div class="admin-header-lock-name" id="lockUserName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></div>' +
                     '<div class="input_btn">' +
                     '<input type="password" class="admin-header-lock-input layui-input" autocomplete="off" placeholder="请输入密码解锁.." name="lockPwd" id="lockPwd" />' +
@@ -180,8 +179,7 @@
             }
         });
     })
-
-    // 捐赠弹窗
+    //捐赠弹窗
     function donation(){
         layer.tab({
             area : ['340px', '385px'],
@@ -194,7 +192,7 @@
             }]
         })
     }
-    // 退出
+    //登出
     function loginout() {
         $.post("<?php echo url('/admin/logout'); ?>", '', function (data) {
             layer.msg(data.msg, {time: 1500}, function () {
