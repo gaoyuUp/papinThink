@@ -1,4 +1,4 @@
-<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1559099578;}*/ ?>
+<?php /*a:1:{s:77:"/Users/liangfei/Public/project/origin/application/admin/view/index/index.html";i:1559545635;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,8 +32,9 @@
                     <a href="javascript:;"><i class="seraph icon-lock"></i><cite>锁屏</cite></a>
                 </li>
                 <li class="layui-nav-item" id="userInfo">
-                    <a href="javascript:;"><img src="/images/Gao.jpg" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></cite></a>
+                    <a href="javascript:;"><img src="<?php echo htmlentities($info['head']); ?>" class="layui-nav-img userAvatar" width="35" height="35"><cite class="adminName"><?php echo htmlentities($info['name']); ?></cite></a>
                     <dl class="layui-nav-child">
+                        <dd><a href="javascript:;" data-url="<?php echo url('/admin/userInfo'); ?>"><i class="seraph icon-ziliao" data-icon="icon-ziliao"></i><cite>个人资料</cite></a></dd>
                         <dd><a href="javascript:;" data-url="<?php echo url('/admin/editPassword'); ?>"><i class="seraph icon-xiugai" data-icon="icon-xiugai"></i><cite>修改密码</cite></a></dd>
                         <dd pc><a href="javascript:;" class="functionSetting"><i class="layui-icon">&#xe620;</i><cite>功能设定</cite><span class="layui-badge-dot"></span></a></dd>
                         <dd><a href="javascript:;" class="showNotice"><i class="layui-icon">&#xe645;</i><cite>系统公告</cite><span class="layui-badge-dot"></span></a></dd>
@@ -47,8 +48,8 @@
     <!-- 左侧导航 -->
     <div class="layui-side layui-bg-black">
         <div class="user-photo">
-            <a class="img" title="我的头像"><img src="/images/Gao.jpg" class="userAvatar"></a>
-            <p>你好！<span class="userName"><?php echo htmlentities(app('session')->get('user_auth.name')); ?></span>, 欢迎登录</p>
+            <a class="img" title="我的头像"><img src="<?php echo htmlentities($info['head']); ?>" class="userAvatar"></a>
+            <p>你好！<span class="userName"><?php echo htmlentities($info['name']); ?></span>, 欢迎登录</p>
         </div>
 
         <div id="navBar" class="navBar layui-side-scroll">
