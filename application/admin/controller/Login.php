@@ -1,8 +1,8 @@
 <?php
 /**
- * Created by originThink
+ * Created by papinThink
  * Author: GaoYu <gaoyu@time-stone.cn>
- * Date: 2018/1/16
+ * Date: 2019/4
  * Time: 15:24
  */
 
@@ -22,7 +22,7 @@ class Login extends Controller
      * @throws \think\db\exception\DataNotFoundException
      * @throws \think\db\exception\ModelNotFoundException
      * @throws \think\exception\DbException
-     * @author 原点 <467490186@qq.com>
+     * @author GaoYu <gaoyu@time-stone.cn>
      */
     public function login()
     {

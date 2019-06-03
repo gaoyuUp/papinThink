@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by originThink
+ * Created by papinThink
  * Author: GaoYu gaoyu@time-stone.cn
- * Date: 18/8/6
- * Time: 上午2:57
+ * Date: 2019
+ * Time: 2:57
  */
 namespace check\exception;
 use think\Exception;
