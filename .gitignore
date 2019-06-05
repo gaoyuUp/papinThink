@@ -4,3 +4,4 @@
 thinkphp
 .env
 /config/database.php
+runtime
