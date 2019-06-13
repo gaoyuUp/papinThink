@@ -33,7 +33,7 @@ layui.use(['form','jquery',"layer"],function() {
             btn: ['火速围观'],
             moveType: 1,
             content: '<div style="padding:15px 20px; text-align:justify; line-height: 22px; text-indent:2em;border-bottom:1px solid #e2e2e2;">' +
-                '<p class="layui-blue">请使用模版前请务必仔细阅读README.md文件，避免使用中遇到一些简单的问题造成困扰。</p>' +
+                '<p class="layui-red">请使用模版前请务必仔细阅读README.md文件，避免使用中遇到一些简单的问题造成困扰。</p>' +
                 '<p class="layui-red">郑重提示：本模版作为学习交流免费使用【不管以何种形式获取的源码，请勿进行出售或者上传到任何素材网站，否则将追究相应的责任】</p>' +
                 '</div>',
             success: function(layero){
